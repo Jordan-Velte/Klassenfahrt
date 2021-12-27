@@ -11,10 +11,10 @@ public class MainController {
     Output o = new Output();
 
     public MainController(){
-        setKfc(new KlassenfahrtController(this));
         setKlc(new KlasseController(this));
         setLec(new LehrerController(this));
         setRec(new ReisezielController(this));
+        setKfc(new KlassenfahrtController(this));
         
     }
 
