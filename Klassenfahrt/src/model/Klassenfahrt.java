@@ -1,14 +1,18 @@
 package model;
+//Import für ArrayList
 import java.util.ArrayList;
+//Import für Datumwerte
 import java.util.Date;
 
 public class Klassenfahrt {
+    //Variablendeklaration
     Reiseziel _reiseziel;
     Klasse _klasse;
     ArrayList<Lehrer> zweilehrer = new ArrayList<Lehrer>();
     Date _startdatum;
     Date _endedatum;
 
+    //Constructor
     public Klassenfahrt(Reiseziel reiseziel, ArrayList<Lehrer> zweilehrer, Klasse klasse, Date startdatum, Date endedatum){
         setKlasse(klasse);
         setZweilehrer(zweilehrer);
@@ -17,6 +21,7 @@ public class Klassenfahrt {
         setStartdatum(startdatum);
     }
 
+    //Setter & Getter
     public void setKlasse(Klasse klasse) {
         this._klasse = klasse;
     }

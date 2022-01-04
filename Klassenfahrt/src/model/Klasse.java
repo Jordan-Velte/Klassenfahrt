@@ -1,11 +1,13 @@
 package model;
 
 public class Klasse {
+    //Variablendeklaration
     String _name;
     int _schueleranzahl;
     double _schuelerdurchschnittsalter;
     double _maxschuelerbudget;
 
+    //Constructor
     public Klasse(String name, int schueleranzahl, double schuelerdurchschnittsalter, double maxschuelerbudget){
         setMaxschuelerbudget(maxschuelerbudget);
         setName(name);
@@ -13,6 +15,8 @@ public class Klasse {
         setSchuelerdurchschnittsalter(schuelerdurchschnittsalter);
     }
 
+
+    //Setter & Getter
     public void setMaxschuelerbudget(double maxschuelerbudget) {
         this._maxschuelerbudget = maxschuelerbudget;
     }

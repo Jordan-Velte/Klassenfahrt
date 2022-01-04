@@ -1,16 +1,19 @@
 package model;
 
 public class Lehrer {
+    //Variablendeklaration
     String _vorname;
     String _nachname;
     String _klassenfahrterlaubnis;
 
+    //Constructor
     public Lehrer(String vorname, String nachname, String klassenfahrterlaubnis){
         setNachname(nachname);
         setVorname(vorname);
         setKlassenfahrterlaubnis(klassenfahrterlaubnis);
     }
 
+    //Setter & Getter
     public void setNachname(String nachname) {
         this._nachname = nachname;
     }

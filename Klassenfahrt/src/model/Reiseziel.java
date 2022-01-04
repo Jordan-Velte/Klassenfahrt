@@ -1,12 +1,14 @@
 package model;
 
 public class Reiseziel {
+    //Variablendeklaration
     String _reisezielname;
     String _hotelname;
     double _preisperschueler;
     double _preisperlehrer;
     double _minschueleralter;
 
+    //Constructor
     public Reiseziel(String reisezielname, String hotelname, double preisperschueler, double preisperlehrer, double minschueleralter){
         setHotelname(hotelname);
         setMinschueleralter(minschueleralter);
@@ -15,6 +17,7 @@ public class Reiseziel {
         setReisezielname(reisezielname);
     }
 
+    //Setter & Getter
     public void setHotelname(String hotelname) {
         this._hotelname = hotelname;
     }
